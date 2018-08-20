@@ -25,7 +25,8 @@ app.get('/getTerpelMiles', function(req, res){
 app.post('/IngresarPQR', function(req, res) {
     var name = req.body.name,
         color = req.body.color;
-    // ...
+           res.send('Okey');
+
 });
 
 app.listen(80, function () {
