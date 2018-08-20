@@ -18,7 +18,7 @@ app.get('/getTerpelMiles', function(req, res){
     }
     else
      {
-       res.send('Tienes 100 Puntos');
+       res.send('Tienes 1000 Puntos');
      }
 });
 
