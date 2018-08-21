@@ -30,6 +30,6 @@ app.post('/IngresarPQR', function(req, res) {
 
 });
 
-app.listen(80, function () {
+app.listen(8080, function () {
   console.log('Example app listening on port 80!');
 });
